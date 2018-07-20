@@ -1,0 +1,24 @@
+Requirements
+Tensorflow 1.0:This code requires Tensorflow Version >= 1.0 to run.
+Usage:
+
+produce label:
+labeltwo.py to produce coarse classification label
+label.py to produce fine classification label
+
+data processing:
+data.py to process data
+
+coarse classification:
+RF_traintest.py vggtrain.py vggtest.py code for coarse classification model
+training 
+probability.py code for producing fused class probability estimation
+
+fine classification:
+vgg_rf_train.py vgg_rf_test.py code for fine classification model
+training 
+enddeal.py 
+
+filtering:
+medianblur.py code for morphological analysis
+
